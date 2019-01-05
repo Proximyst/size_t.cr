@@ -1,4 +1,4 @@
-# cr-sizes
+# size_t
 
 The `size_t` and `usize_t` types for Crystal, because we for some reason don't
 already have them.
@@ -16,7 +16,7 @@ dependencies:
 ## Usage
 
 ```crystal
-require "cr-sizes"
+require "size_t"
 
 # Use the usize_t/USize type:
 typeof(Sizes::USize) # (64-bit processor) => UInt64
@@ -29,4 +29,4 @@ typeof(Sizes::ISize) # (64-bit processor) =>  Int64
 
 ## Contributors
 
-- [Mariell Hoversholm](https://github.com/your-github-user) - creator and maintainer
+- [Mariell Hoversholm](https://github.com/Proximyst) - creator and maintainer
