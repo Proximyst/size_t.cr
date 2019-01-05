@@ -8,8 +8,8 @@ already have them.
 1. Add the dependency to your `shard.yml`:
 ```yaml
 dependencies:
-  cr-sizes:
-    github: Proximyst/cr-sizes
+  size_t:
+    github: Proximyst/size_t.cr
 ```
 2. Run `shards install`
 
